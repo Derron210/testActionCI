@@ -4,6 +4,8 @@ $currentPath = (Get-Item .).FullName
 
 $script:foundProjects = @()
 
+Write-Host CUrrent path $currentPath
+
 function Find-Solution {
 	param(
         $file
