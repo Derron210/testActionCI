@@ -22,4 +22,5 @@ jobs:
       uses: microsoft/setup-msbuild@v1
 
     - name: Build
+      working-directory: ./    
       run: ./.github/workflows/build.ps1
